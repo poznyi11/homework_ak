@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Homework_AK</string>
+    <string name="main_btn_hw_1">Homework 1\nEntry Lifecycle Activity</string>
+    <string name="main_btn_hw_2">Homework 2\nAdvanced Activity (Sharing Data)</string>
+    <string name="main_btn_hw_3">Homework 3\nFragments</string>
+    <string name="main_btn_hw_4">Homework 4\nLayouts (Constraint vs Other)</string>
+    <string name="main_btn_hw_5">Homework 5\nСписки</string>
+    <string name="main_btn_hw_6">Homework 6\nCustom view (Drawing)</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/main_btn_1"
+                style="@style/main_btn"
+                android:text="@string/main_btn_hw_1" />
+
+            <Button
+                android:id="@+id/main_btn_2"
+                style="@style/main_btn"
+                android:text="@string/main_btn_hw_2" />
+
+            <Button
+                android:id="@+id/main_btn_3"
+                style="@style/main_btn"
+                android:text="@string/main_btn_hw_3" />
+
+            <Button
+                android:id="@+id/main_btn_4"
+                style="@style/main_btn"
+                android:text="@string/main_btn_hw_4" />
+
+            <Button
+                android:id="@+id/main_btn_5"
+                style="@style/main_btn"
+                android:text="@string/main_btn_hw_5" />
+
+            <Button
+                android:id="@+id/main_btn_6"
+                style="@style/main_btn"
+                android:text="@string/main_btn_hw_6" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
