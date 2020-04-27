@@ -1,4 +1,5 @@
 <resources>
+    <!--    Main Activity -->
     <string name="app_name">Homework_AK</string>
     <string name="main_btn_hw_1">Homework 1\nEntry Lifecycle Activity</string>
     <string name="main_btn_hw_2">Homework 2\nAdvanced Activity (Sharing Data)</string>
@@ -6,4 +7,16 @@
     <string name="main_btn_hw_4">Homework 4\nLayouts (Constraint vs Other)</string>
     <string name="main_btn_hw_5">Homework 5\nСписки</string>
     <string name="main_btn_hw_6">Homework 6\nCustom view (Drawing)</string>
+
+    <!--    Homework 1 -->
+    <string name="button_1_text">Homework 1 \"Counter\" Vers 1\nUse coClick</string>
+    <string name="button_2_text">Homework 1 \"Counter\" Vers 2\nUse interface View.OnClickListener</string>
+    <string name="button_3_text">Homework 1 \"Counter\" Vers 3\nUse setOnClickListener</string>
+    <string name="button_4_text">Homework 1 \"Sending text\"</string>
+    <string name="button_sub">-</string>
+    <string name="button_add">+</string>
+    <string name="text_hint">enter text</string>
+    <string name="text_button">GO TEXT</string>
+
+
 </resources>

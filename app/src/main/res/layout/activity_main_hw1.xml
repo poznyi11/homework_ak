@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homework_1.MainHw1Activity">
+
+    <Button
+        android:id="@+id/main_hw_1_btn_1"
+        style="@style/main_hw_1_btn"
+        android:onClick="goVers1"
+        android:text="@string/button_1_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/main_hw_1_btn_2"
+        style="@style/main_hw_1_btn"
+        android:layout_marginTop="10dp"
+        android:onClick="goVers2"
+        android:text="@string/button_2_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_hw_1_btn_1" />
+
+    <Button
+        android:id="@+id/main_hw_1_btn_3"
+        style="@style/main_hw_1_btn"
+        android:layout_marginTop="10dp"
+        android:onClick="goVers3"
+        android:text="@string/button_3_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_hw_1_btn_2" />
+
+    <Button
+        android:id="@+id/main_hw_1_btn_4"
+        style="@style/main_hw_1_btn"
+        android:layout_marginTop="80dp"
+        android:onClick="goVers4"
+        android:text="@string/button_4_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_hw_1_btn_3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
