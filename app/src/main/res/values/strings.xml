@@ -6,4 +6,15 @@
     <string name="main_btn_hw_4">Homework 4\nLayouts (Constraint vs Other)</string>
     <string name="main_btn_hw_5">Homework 5\nСписки</string>
     <string name="main_btn_hw_6">Homework 6\nCustom view (Drawing)</string>
+    <string name="hint_number_1">введите число 1</string>
+    <string name="hint_number_2">введите число 2</string>
+    <string name="hint_answer">введите ответ</string>
+    <string name="button_1">НАЧАТЬ ИГРУ!!!</string>
+    <string name="button_2">ГЛАВНОЕ МЕНЮ</string>
+    <string name="button_3">РАНДОМНЫЕ ЧИСЛА</string>
+    <string name="button_4">ВВОДИМ ЧИСЛА САМИ</string>
+    <string name="button_continue">ПРОДОЛЖИТЬ ИГРУ</string>
+    <string name="textStart">СДЕЛАЙТЕ ВЫБОР ИГРЫ</string>
+    <string name="plus">+</string>
+    <string name="equals">=</string>
 </resources>
