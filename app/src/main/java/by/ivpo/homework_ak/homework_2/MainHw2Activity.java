@@ -1,6 +1,8 @@
 package by.ivpo.homework_ak.homework_2;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -14,9 +16,14 @@ public class MainHw2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main_hw2);
     }
 
-    public void startUserNumbers(View view) {
+    public void startRandomNumbers(View view) {
+        Intent intent = new Intent(this, RandomNumbers.class);
+        startActivity(intent);
     }
 
-    public void startRandomNumbers(View view) {
+    public void startUserNumbers(View view) {
+        Intent intent = new Intent(this, UserNumbers.class);
+        startActivity(intent);
     }
+
 }

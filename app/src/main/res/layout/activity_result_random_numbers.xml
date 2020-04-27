@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homework_2.ResultRandomNumbers">
+
+    <TextView
+        android:id="@+id/answerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:width="300dp"
+        android:height="50dp"
+        android:background="@color/colorBackground"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:width="300dp"
+        android:height="50dp"
+        android:background="@color/colorBackground"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/answerText" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="252dp"
+        android:onClick="backToStart"
+        android:padding="20dp"
+        android:text="@string/button_2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message" />
+
+    <Button
+        android:id="@+id/buttonContinue"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="24dp"
+        android:onClick="backToContinueGame"
+        android:padding="20dp"
+        android:text="@string/button_continue"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <FrameLayout
+        android:id="@+id/layoutColor"
+        android:layout_width="240dp"
+        android:layout_height="160dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message"
+        app:layout_constraintVertical_bias="0.489"></FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageHeart"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heart" />
+
+    <ImageView
+        android:id="@+id/imageRight"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintStart_toEndOf="@+id/heartText"
+        app:layout_constraintTop_toTopOf="@+id/imageHeart"
+        app:srcCompat="@drawable/right" />
+
+    <TextView
+        android:id="@+id/heartText"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:textSize="24dp"
+        app:layout_constraintStart_toEndOf="@+id/imageHeart"
+        app:layout_constraintTop_toTopOf="@+id/imageHeart" />
+
+    <TextView
+        android:id="@+id/rightText"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:textSize="24dp"
+        app:layout_constraintStart_toEndOf="@+id/imageRight"
+        app:layout_constraintTop_toTopOf="@+id/imageRight" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

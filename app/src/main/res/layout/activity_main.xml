@@ -24,7 +24,8 @@
             <Button
                 android:id="@+id/main_btn_2"
                 style="@style/main_btn"
-                android:text="@string/main_btn_hw_2" />
+                android:text="@string/main_btn_hw_2"
+                android:onClick="goMainHw2"/>
 
             <Button
                 android:id="@+id/main_btn_3"
