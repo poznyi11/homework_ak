@@ -29,7 +29,8 @@
             <Button
                 android:id="@+id/main_btn_3"
                 style="@style/main_btn"
-                android:text="@string/main_btn_hw_3" />
+                android:text="@string/main_btn_hw_3"
+                android:onClick="goMainHw3"/>
 
             <Button
                 android:id="@+id/main_btn_4"

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".homework_3.CountryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/country_1"
+            style="@style/MyTextStyle" />
+
+        <TextView
+            android:id="@+id/country_2"
+            style="@style/MyTextStyle" />
+
+
+        <TextView
+            android:id="@+id/country_3"
+            style="@style/MyTextStyle" />
+
+
+        <TextView
+            android:id="@+id/country_4"
+            style="@style/MyTextStyle" />
+
+
+        <TextView
+            android:id="@+id/country_5"
+            style="@style/MyTextStyle" />
+
+        <TextView
+            android:id="@+id/country_6"
+            style="@style/MyTextStyle" />
+
+
+        <TextView
+            android:id="@+id/country_7"
+            style="@style/MyTextStyle" />
+
+        <TextView
+            android:id="@+id/country_8"
+            style="@style/MyTextStyle" />
+
+
+        <TextView
+            android:id="@+id/country_9"
+            style="@style/MyTextStyle" />
+
+        <TextView
+            android:id="@+id/country_10"
+            style="@style/MyTextStyle" />
+
+        <TextView
+            android:id="@+id/country_11"
+            style="@style/MyTextStyle" />
+
+        <TextView
+            android:id="@+id/country_12"
+            style="@style/MyTextStyle" />
+
+
+        <TextView
+            android:id="@+id/country_13"
+            style="@style/MyTextStyle" />
+
+
+        <TextView
+            android:id="@+id/country_14"
+            style="@style/MyTextStyle" />
+
+
+        <TextView
+            android:id="@+id/country_15"
+            style="@style/MyTextStyle" />
+
+        <TextView
+            android:id="@+id/country_16"
+            style="@style/MyTextStyle" />
+
+
+        <TextView
+            android:id="@+id/country_17"
+            style="@style/MyTextStyle" />
+
+        <TextView
+            android:id="@+id/country_18"
+            style="@style/MyTextStyle" />
+
+
+        <TextView
+            android:id="@+id/country_19"
+            style="@style/MyTextStyle" />
+
+        <TextView
+            android:id="@+id/country_20"
+            style="@style/MyTextStyle" />
+    </LinearLayout>
+</ScrollView>

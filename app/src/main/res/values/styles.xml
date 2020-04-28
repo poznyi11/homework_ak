@@ -16,4 +16,24 @@
     <item name="android:textSize">18sp</item>
     </style>
 
+    <style name="MyTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/back</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:text">@string/blank_country</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="CapitalTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:text">@string/entry_capital</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
 </resources>
