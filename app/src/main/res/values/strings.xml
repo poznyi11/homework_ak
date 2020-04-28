@@ -6,4 +6,21 @@
     <string name="main_btn_hw_4">Homework 4\nLayouts (Constraint vs Other)</string>
     <string name="main_btn_hw_5">Homework 5\nСписки</string>
     <string name="main_btn_hw_6">Homework 6\nCustom view (Drawing)</string>
+
+    <!--    Homework_4 -->
+    <string name="main_text">Change Activity</string>
+    <string name="button1_text">Only CL</string>
+    <string name="button2_text">Without CL</string>
+    <string name="text_bars_1">Més que un club</string>
+    <string name="text_bars_2">Больше, чем клуб</string>
+    <string name="text_time">April 2020 PG 129 minutes</string>
+    <string name="button_1">Buy ticket</string>
+    <string name="button_2">Buy t-shirt</string>
+    <string name="text_icon_1">Best \nStadium</string>
+    <string name="text_icon_2">Best \nClub</string>
+    <string name="text_icon_3">Best \nTV Raiting</string>
+    <string name="text_icon_4">Best \nFans</string>
+    <string name="about_barsa">«Барсело́на» (кат. Futbol Club Barcelona, исп. Fútbol Club Barcelona),
+        известен также как «Ба́рса» (исп. и кат. Barça) — испанский профессиональный футбольный клуб
+        из одноимённого города, самый титулованный клуб Испании и топ-5 чемпионатов</string>
 </resources>

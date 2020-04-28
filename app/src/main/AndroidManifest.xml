@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".homework_4.WithoutCL"></activity>
+        <activity android:name=".homework_4.OnlyCL" />
+        <activity android:name=".homework_4.MainHw4Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -34,7 +34,8 @@
             <Button
                 android:id="@+id/main_btn_4"
                 style="@style/main_btn"
-                android:text="@string/main_btn_hw_4" />
+                android:text="@string/main_btn_hw_4"
+                android:onClick="goMainHw4"/>
 
             <Button
                 android:id="@+id/main_btn_5"
