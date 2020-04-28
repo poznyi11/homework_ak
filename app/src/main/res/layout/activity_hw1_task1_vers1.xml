@@ -10,12 +10,12 @@
         android:id="@+id/subButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
         android:layout_marginTop="40dp"
         android:background="@color/colorButtonSub"
         android:onClick="subNumber"
         android:text="@string/button_sub"
-        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/addButton"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -27,7 +27,9 @@
         android:background="@color/colorButtonAdd"
         android:onClick="addNumber"
         android:text="@string/button_add"
-        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/subButton"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
@@ -39,9 +41,8 @@
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.50"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.450" />
+        app:layout_constraintVertical_bias="0.425" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
