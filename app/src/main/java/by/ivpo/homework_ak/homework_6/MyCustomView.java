@@ -13,34 +13,41 @@ import androidx.annotation.Nullable;
 
 import by.ivpo.homework_ak.R;
 
-public class MyView extends View {
-
+public class MyCustomView extends View {
     Paint p = new Paint();
     int pThick = 10;
     Canvas canvas;
     int persent;
 
-    public MyView(Context context) {
+    public MyCustomView(Context context) {
         super(context);
     }
 
-    public MyView(Context context, @Nullable AttributeSet attrs) {
+    public MyCustomView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
-    }
 
-    public MyView(Context context, AttributeSet attrs, int defStyle) {
-        super(context, attrs, defStyle);
-
-        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.MyView, defStyle, 0);
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.MyView);
 
         String str = a.getString(R.styleable.MyView_my_custom_attribute);
 
         persent = Integer.parseInt(str);
 
-        //do something with str
 
-        a.recycle();
     }
+
+//    public MyCustomView(Context context, AttributeSet attrs, int defStyle) {
+//        super(context, attrs, defStyle);
+//
+//        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.MyView, defStyle, 0);
+//
+//        String str = a.getString(R.styleable.MyView_my_custom_attribute);
+//
+//        persent = Integer.parseInt(str);
+//
+//        //do something with str
+//
+//        a.recycle();
+//    }
 
 
     @Override
@@ -93,3 +100,4 @@ public class MyView extends View {
     }
 
 }
+
