@@ -33,7 +33,7 @@ public class MyView extends View {
 
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.MyView, defStyle, 0);
 
-        String str = a.getString(R.styleable.MyView_my_custom_attribute);
+        String str = a.getString(R.styleable.MyView_percent);
 
         persent = Integer.parseInt(str);
 
