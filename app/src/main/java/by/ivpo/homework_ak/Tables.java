@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class Tables extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_tables);
     }
 
-    public void goTables(View view) {
-        Intent intent = new Intent(this, Tables.class);
+    public void goTableUsers(View view) {
+        Intent intent = new Intent(this, TableUsers.class);
         startActivity(intent);
     }
 }
