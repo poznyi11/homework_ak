@@ -6,7 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Tables extends AppCompatActivity {
+import by.ivpo.homework_ak.old.TableUsers;
+
+public class ChangeTablesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

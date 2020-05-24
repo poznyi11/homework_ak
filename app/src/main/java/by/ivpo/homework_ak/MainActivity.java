@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goTables(View view) {
-        Intent intent = new Intent(this, Tables.class);
+        Intent intent = new Intent(this, ChangeTablesActivity.class);
         startActivity(intent);
     }
 }

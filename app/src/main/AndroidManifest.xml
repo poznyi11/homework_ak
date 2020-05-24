@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity"></activity>
-        <activity android:name=".Tables" />
-        <activity android:name=".TableUsers">
+        <activity android:name=".ChangeTablesActivity" />
+        <activity android:name=".TableUserActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

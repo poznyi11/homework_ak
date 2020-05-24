@@ -1,4 +1,4 @@
-package by.ivpo.homework_ak;
+package by.ivpo.homework_ak.old;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,6 +15,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import by.ivpo.homework_ak.R;
+import by.ivpo.homework_ak.model.User;
 
 public class TableUsers extends AppCompatActivity {
 
@@ -45,7 +48,7 @@ public class TableUsers extends AppCompatActivity {
         String secondName = et_second_name.getText().toString();
         String phone = et_phone.getText().toString();
 
-        this.users.add(new User(name, secondName, phone));
+        this.users.add(new User(1, name, secondName, phone));
 
         et_name.setText("");
         et_second_name.setText("");

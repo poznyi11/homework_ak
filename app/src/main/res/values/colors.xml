@@ -6,5 +6,6 @@
     <color name="colorCurrentHw">#7BFAC5</color>
     <color name="colorBtnAdd">#7BFAC5</color>
     <color name="colorBtnDel">#FA6C7F</color>
+    <color name="colorBtnLoadDB">#FAEAA2</color>
 
 </resources>
