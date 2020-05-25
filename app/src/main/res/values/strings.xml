@@ -6,4 +6,12 @@
     <string name="main_btn_hw_4">Homework 4\nLayouts (Constraint vs Other)</string>
     <string name="main_btn_hw_5">Homework 5\nСписки</string>
     <string name="main_btn_hw_6">Homework 6\nCustom view (Drawing)</string>
+    <string name="main_btn_hw_7">Homework 7\nSQL with Java (SQLiteHelper)</string>
+    <string name="main_btn_hw_8">Homework 8\nSQL with Java (ROOM)</string>
+
+    <string name="item1">Item1</string>
+    <string name="item2">Item2</string>
+    <string name="item3">Item3</string>
+    <string name="item4">Item4</string>
+
 </resources>

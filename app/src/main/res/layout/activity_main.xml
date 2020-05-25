@@ -45,6 +45,16 @@
                 android:id="@+id/main_btn_6"
                 style="@style/main_btn"
                 android:text="@string/main_btn_hw_6" />
+            <Button
+                android:id="@+id/main_btn_7"
+                style="@style/main_btn"
+                android:text="@string/main_btn_hw_7" />
+            <Button
+                android:id="@+id/main_btn_8"
+                style="@style/main_btn"
+                android:onClick="goTables"
+                android:background="@color/colorCurrentHw"
+                android:text="@string/main_btn_hw_8" />
         </LinearLayout>
     </ScrollView>
 
